@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+section#contenidos {
+	height: 930px;
+}
+
+#centrar_contenidos h2{
+	color: #A1C133;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.boxSushi {
+	width: 276px;
+	height: 350px;
+	background-color: tomato;
+	float:left;
+	margin-top: 35px;
+	margin-left: 10px;
+	-webkit-transition: background-image 0.35s ease-out;
+	-moz-transition: background-image 0.35s ease-out;
+	-ms-transition: background-image 0.35s ease-out;
+	transition: background-image 0.35s ease-out;
+}
+
+div#Sushi1 {
+	background-image: url(../especialidades/especialidad1.jpg);
+}
+
+div#Sushi1:hover {
+	background-image: url(../especialidades/hover/especialidad1.jpg);
+}
+
+div#Sushi2 {
+	background-image: url(../especialidades/especialidad2.jpg);
+}
+
+div#Sushi2:hover {
+	background-image: url(../especialidades/hover/especialidad2.jpg);
+}
+
+div#Sushi3{
+	background-image: url(../especialidades/especialidad3.jpg);
+}
+div#Sushi3:hover {
+	background-image: url(../especialidades/../especialidades/hover/especialidad3.jpg);
+}
+div#Sushi4 {
+	background-image: url(../especialidades/especialidad4.jpg);
+}
+div#Sushi4:hover {
+	background-image: url(../especialidades/hover/especialidad4.jpg);
+}
+div#Sushi5 {
+	background-image: url(../especialidades/especialidad5.jpg);
+}
+div#Sushi5:hover {
+	background-image: url(../especialidades/hover/especialidad5.jpg);
+}
+div#Sushi6 {
+	background-image: url(../especialidades/especialidad6.jpg);
+}
+div#Sushi6:hover {
+	background-image: url(../especialidades/hover/especialidad6.jpg);
+}
+div#Sushi7 {
+	background-image: url(../especialidades/especialidad7.jpg);
+}
+div#Sushi7:hover {
+	background-image: url(../especialidades/hover/especialidad7.jpg);
+}
+div#Sushi8 {
+	background-image: url(../especialidades/especialidad8.jpg);
+}
+div#Sushi8:hover {
+	background-image: url(../especialidades/hover/especialidad8.jpg);
+}
+
+

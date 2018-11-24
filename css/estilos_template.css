@@ -83,8 +83,8 @@ footer {
 	font-weight: 100;
 	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: #262626;
-	text-decoration: none;
 	letter-spacing: 2px;
+	text-decoration: none;
 }
 
 #menu a:hover{
@@ -176,3 +176,118 @@ footer {
 	margin-top: -80px;
 	box-shadow: 0 5px 7px rgba(0,0,0,0,0.5);
 }
+
+div.footerA{
+	width: 174px;
+	height: 110px;
+	float: left;
+	margin-top: 56px;
+	margin-left: 20px;
+}
+
+div.footerB{
+	width: 276px;
+	height: 110px;
+	float: left;
+	margin-top: 56px;
+	margin-left: 20px;
+}
+
+div.footerA:nth-child(1) img{
+	/*para mover imagen del logo en el hijo 1*/
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+div.footerA:nth-child(3) img{
+	/*para mover imagen de redes sociales en hijo 3*/
+	margin-right: 15px;
+}
+
+#menuFooter, #menuSociales {
+	list-style: none;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	font-weight: 100;
+}
+
+#menuFooter li, #menuSociales li  {
+	margin-bottom: 10px;
+}
+
+ul#menuFooter a, ul#menuSociales a {
+	color: white;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+div.footerB h6 {
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+div.footerB input { 
+	width: 210px;
+	height: 30px;
+	background-color: transparent;
+	border: solid 1px white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+}
+div.footerB button {
+	width: auto;
+	height: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	color: rgba(55,55,55,1);
+	border:solid 1px white;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 10px;
+	
+}
+
+div.footerB button:hover {
+	background-color: #FF540B;
+	color: white;
+}
+div.footerB h5 {
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+
+#FacebookFooter {
+	width: 7px;
+	height: 14px;
+}
+#TwitterFooter {
+	width: 14px;
+	height: 11px;
+}
+#InstagramFooter {
+	width: 14px;
+	height: 14px;
+}
+
+::-webkit-input-placeholder{color:white}
+::-moz-input-placeholder{color:white}
+::-ms-input-placeholder{color:white}
+input-placeholder{color:white}
+
+
+#centrar_contenidos h2 {
+	color: #A1C133;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 50px;
+}
+
